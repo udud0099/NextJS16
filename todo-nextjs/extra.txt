@@ -1,0 +1,12 @@
+npm i prisma --save-dev
+npm i prisma -D 
+npm i -D prisma
+
+npx prisma init
+
+
+
+
+
+
+
