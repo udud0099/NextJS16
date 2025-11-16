@@ -3,6 +3,9 @@ npm i prisma -D
 npm i -D prisma
 
 npx prisma init
+npx prisma init --datasource-provider mongodb
+
+npx prisma generate
 
 
 
