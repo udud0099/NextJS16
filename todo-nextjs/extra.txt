@@ -7,6 +7,15 @@ npx prisma init --datasource-provider mongodb
 
 npx prisma generate
 
+npx prisma db push
+
+npm install dotenv
+prisma.config.ts -> in file
+import "dotenv/config";
+
+
+npm i clsx react-icons
+
 
 
 
