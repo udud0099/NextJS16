@@ -22,4 +22,10 @@ export interface buttonProps {
     bgColor?: string;
 }
 
+export interface todoProps{
+    id: string;
+    title?: string | null;
+    isCompleted: boolean;
+    createdAt?: Date;
+}
 

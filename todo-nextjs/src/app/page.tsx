@@ -1,6 +1,7 @@
 
  import { prisma } from "@/utils/prisma";
 import AddTodo from "../../components/todos/AddTodo";
+import Todo from "../../components/todos/Todo";
 
 
  async function getData(){
@@ -11,7 +12,7 @@ import AddTodo from "../../components/todos/AddTodo";
       isCompleted:true,
     },
     orderBy:{
-      createdAt:"asc"
+      createdAt:"desc"
     }
   })
   return data
@@ -29,7 +30,8 @@ export default async function Home() {
       <br />
       <div>
         {data.map((todo, id)=>(
-          <div   key={id} className="my-1">{todo.title}</div>
+          <div   key={id} className="my-1">
+            <Todo todo={todo} /></div>
         ))}
       </div>
      </div>

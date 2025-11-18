@@ -1,13 +1,12 @@
-import React from 'react'
+import * as actions from "@/actions"
 import Form from '../form/Form'
 import Button from '../button/Button'
-import Input from '../input/Input'
-import { createTodo } from '@/actions'
+import Input from '../input/Input' 
 
 const AddTodo = () => {
   return (
     <div>
-      <Form action={createTodo}>
+      <Form action={actions.createTodo}>
         <div>
             <Input name="input" type="text"/>
             <br />
