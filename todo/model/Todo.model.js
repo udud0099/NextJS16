@@ -6,7 +6,7 @@ const TodoSchema = new Schema({
         type:String,
         require:true
     },
-    description:{
+    des:{
         type: String,
         require: true
     }
