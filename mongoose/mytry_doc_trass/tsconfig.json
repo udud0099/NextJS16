@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "components/Chil1.jsx", "components/Chil2.jsx", "components/MainParant1.jsx"  ],
   "exclude": ["node_modules"]
 }
